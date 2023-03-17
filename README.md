@@ -1,6 +1,6 @@
 <h1> G-MSM: Unsupervised Multi-Shape Matching with Graph-based Affinity Priors </h1>
 
-The official implementation of the CVPR'2023 paper ([[arxiv]]https://arxiv.org/abs/2212.02910).
+The official implementation of the CVPR'2023 paper (\[[arXiv]https://arxiv.org/abs/2212.02910)\].
 
 ## Usage
 
