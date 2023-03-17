@@ -2,7 +2,7 @@
 
 The official implementation of the CVPR'2023 paper (\[[arXiv](https://arxiv.org/abs/2212.02910)\]).
 
-![](https://github.com/marvin-eisenberger/gmsm-matching/blob/master/assets/overview_gmsm.png)
+![](https://github.com/marvin-eisenberger/gmsm-matching/blob/main/assets/overview_gmsm.png)
 
 ## Usage
 
