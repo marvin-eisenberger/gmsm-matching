@@ -5,8 +5,8 @@ The official implementation of the CVPR'2023 paper (\[[arXiv](https://arxiv.org/
 ![](https://github.com/marvin-eisenberger/gmsm-matching/blob/main/assets/overview_gmsm.png)
 
 
-## Setting up the repo
-* We recommend installing the repo directly via anaconda:
+## Setting up the python interpreter
+* We recommend installing the required python packages directly via anaconda:
 ```bash
 conda env create --name gmsm_env -f gmsm_env.yml
 conda activate gmsm_env
