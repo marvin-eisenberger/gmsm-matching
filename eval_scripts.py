@@ -4,7 +4,7 @@ import time
 from model import *
 
 
-def run_validation(method_array, dataset_arr, graph_mode_arr, val_highres=False, num_epoch=None, idx_pairs=None):
+def run_validation(run_array, dataset_arr, graph_mode_arr, val_highres=False, num_epoch=None, idx_pairs=None):
     print("val_highres =", val_highres)
     print("graph_mode_arr =", graph_mode_arr)
     print("num_epoch =", num_epoch)
@@ -13,7 +13,7 @@ def run_validation(method_array, dataset_arr, graph_mode_arr, val_highres=False,
     for dataset in dataset_arr:
         dataset_val = dataset()
         dataset_val.init_diffusion_net_ops()
-        for stamp in method_array:
+        for stamp in run_array:
             folder_path = save_path(stamp)
 
             model = GraphMultiShapeMatching(None, folder_path)
@@ -22,7 +22,7 @@ def run_validation(method_array, dataset_arr, graph_mode_arr, val_highres=False,
 
 
 if __name__ == "__main__":
-    method_array = [
+    run_array = [
         "shrec20_pretrained",
     ]
 
@@ -32,4 +32,4 @@ if __name__ == "__main__":
 	
     graph_mode_arr = ["full"]
 	
-    run_validation(method_array, dataset_arr, graph_mode_arr)
+    run_validation(run_array, dataset_arr, graph_mode_arr)

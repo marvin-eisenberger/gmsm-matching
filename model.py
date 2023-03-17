@@ -3,7 +3,7 @@ import scipy.io
 import numpy as np
 import time
 from matching.diff_matching import *
-from data.data import *
+from utils.data import *
 import diffusion_net as diffusion_net
 from matching.shape_graph import *
 
