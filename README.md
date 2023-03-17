@@ -30,3 +30,4 @@ python3 eval_scripts.py
 * Results will be saved under `results/shrec20_pretrained`.
 * The script outputs the query correspondences for all pairs in individual files, as well as the predicted shape graph and the validation losses for all pairs.
 * By default, a pretrained version of our model is used to produce the query correspondences on SHREC'20. 
+* To evaluate different runs, specify the configuration in `eval_scripts.py`.
