@@ -1,5 +1,5 @@
 import numpy as np
-from data.data import ShapeDatasetCombine
+from utils.data import ShapeDatasetCombine
 import scipy.sparse.csgraph
 from utils.tools import my_long_tensor
 from python_tsp.exact import solve_tsp_dynamic_programming
