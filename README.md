@@ -12,7 +12,7 @@ conda activate gmsm_env
 
 ### Data
 * The repository contains sample code to train our full model on SHREC'20. Please download the high-resolution data from [here](http://robertodyke.com/shrec2020/index2.html) and preprocess it, following the steps from the DeepShells [repository](https://github.com/marvin-eisenberger/deep-shells).
-* Save the processed shapes under `data/shrec20`, or specify the path in `data/data.py`.
+* Save the processed shapes under `data/shrec20`, or specify the path in `utils/data.py`.
 
 ### Train
 * To train our model, simply run
