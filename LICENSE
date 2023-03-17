@@ -38,9 +38,9 @@ SOFTWARE.
 
 The following files:
 
-data/data.py
 matching/diff_matching.py
 matching/matching.py
+utils/data.py
 utils/param.py
 utils/shape_utils.py
 utils/tools.py
