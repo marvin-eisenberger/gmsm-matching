@@ -2,7 +2,7 @@ from model import *
 from utils.param import *
 
 
-def train_main():
+def main_train():
     folder_out = save_path("shrec20")
 	
     dataset = Shrec20_full()
@@ -12,4 +12,4 @@ def train_main():
 
 
 if __name__ == "__main__":
-    train_main()
+    main_train()
